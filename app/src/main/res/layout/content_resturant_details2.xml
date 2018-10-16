@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".view.restaurant_view.RestaurantDetailsActivity"
+    tools:showIn="@layout/activity_resturant_details2">
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="true"
+    android:scrollbars="vertical"
+    android:fadeScrollbars="false"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/restaurant_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:text="@string/restaurants" />
+
+        <TextView
+            android:id="@+id/restaurant_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/restaurant_name"
+            android:layout_marginTop="10dp"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:text="@string/address" />
+
+        <TextView
+            android:id="@+id/restaurant_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_green_light"
+            android:layout_alignParentRight="true"
+            android:padding="3dp"
+            android:textStyle="bold"
+            android:text="@string/_3_5"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:id="@+id/votes"
+            android:layout_width="wrap_content"
+            android:padding="3dp"
+            android:layout_below="@+id/restaurant_rating"
+            android:layout_alignParentRight="true"
+            android:layout_height="wrap_content"
+            android:text="@string/votes" />
+
+        <TextView
+            android:id="@+id/restaurant_cuisines"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/restaurant_address"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            android:text="@string/cusinies" />
+
+        <TextView
+            android:id="@+id/restaurant_ordernow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:visibility="visible"
+            android:layout_below="@id/restaurant_cuisines"
+            android:textColor="@android:color/holo_blue_bright"
+            android:text="@string/order_now" />
+
+        <TextView
+            android:id="@+id/daily_menu_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:visibility="gone"
+            android:textSize="20dp"
+            android:layout_below="@id/restaurant_cuisines"
+            android:text="Menu for today"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_red_dark"
+            />
+
+
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/daily_menu_tv"
+            android:id="@+id/daily_menu_frame_layout"
+            >
+
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/restaurant_ordernow"
+            android:id="@+id/menu_availability"
+            android:textStyle="bold|italic"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_marginTop="60dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:visibility="gone"
+            android:text="@string/menu_is_available_for_some_restaurant_of_location_prague"
+            />
+
+
+    </RelativeLayout>
+</ScrollView>
+</android.support.v4.widget.NestedScrollView>

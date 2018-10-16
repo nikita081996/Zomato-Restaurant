@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Zomato</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Zomato login</string>
+    <string name="nav_header_subtitle">zomato.login@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main2">Change Location</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_restaurant_details2">Restaurant Details</string>
+    <string name="send_feedback">Send Feedback</string>
+    <string name="rate_us_on_play_store">Rate us on Play Store</string>
+    <string name="about">About</string>
+    <string name="search_for_resturant_cuisine_or_dishes">Search for resturant, cuisine or d...</string>
+    <string name="change_location">change location</string>
+    <string name="recommendations_for_you">Recommendations for you</string>
+    <string name="your_location">Your Location</string>
+    <string name="restaurants">Resturants</string>
+    <string name="address">Address</string>
+    <string name="cusinies">Cusinies</string>
+    <string name="enter_new_location">Enter new location</string>
+    <string name="order_now">Order Now</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title">Title</string>
+    <string name="daily_menu">Daily Menu</string>
+    <string name="menu_is_available_for_some_restaurant_of_location_prague">Menu is available for some Restaurant of location Prague</string>
+    <string name="votes">votes</string>
+    <string name="_3_5">3.5</string>
+    <string name="dish_name">Dish Name</string>
+    <string name="price">Price</string>
+
+</resources>
